@@ -1,0 +1,16 @@
+{
+    "bringProperties":{
+        "email": "YOUR_BRING_EMAIL",
+        "password": "YOUR_BRING_PASSWORD",
+        "locale": "YOUR_ISO_LANGUAGE_CODE",
+        "listUUID": "YOUR_BRING_LIST_UUID"
+    },
+    "locales":{
+        "launch": "Has abierto Bring",
+        "list": "En la lista hay ",
+        "add": "Añadido",
+        "remove": "Eliminado",
+        "empty": "La lista está vacía",
+        "error": "No se ha podido conectar con el API de Bring"
+    }
+}

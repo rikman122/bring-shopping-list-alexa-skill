@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "GetItemsIntent",
+          "samples": [
+            "qué tiene",
+            "qué hay apuntado",
+            "qué tenemos apuntando",
+            "qué hay"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "producto",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "name": "AddItemIntent",
+          "samples": [
+            "apunta {producto}",
+            "añade {producto}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "producto",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "name": "RemoveItemIntent",
+          "samples": [
+            "quita {producto}",
+            "elimina {producto}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "mi lista"
+    }
+  }
+}
